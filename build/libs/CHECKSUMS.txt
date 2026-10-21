@@ -1,0 +1,1 @@
+71c8640350dc567f52323507e3c58bc7923d835da41f49cf3cbfbff1954f7700  litematica-chunk-aligner-1.0.0.jar
