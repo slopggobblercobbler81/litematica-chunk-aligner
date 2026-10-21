@@ -78,3 +78,8 @@ $$X_{\text{afk}} = \frac{X_{\min} + X_{\max}}{2}, \quad Z_{\text{afk}} = \frac{Z
 ```
 
 Artifacts are output to `build/libs/`.
+
+
+## Configuration & Mod Menu Integration
+
+Litematica Chunk Aligner supports **Mod Menu** and Cloth Config. Access settings via Mod Menu in the title screen.
