@@ -18,6 +18,9 @@
   "entrypoints": {
     "client": [
       "me.slopggobblercobbler.chunkaligner.LitematicaChunkAlignerMod"
+    ],
+    "modmenu": [
+      "me.slopggobblercobbler.chunkaligner.compat.ModMenuIntegration"
     ]
   },
   "depends": {
