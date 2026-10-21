@@ -1,0 +1,54 @@
+{
+  "mod.litematica_chunk_aligner.name": "Litematica Chunk Aligner",
+  "text.litematica_chunk_aligner.prefix": "[Chunk Aligner]",
+
+  "category.litematica_chunk_aligner.generic": "Generic",
+  "category.litematica_chunk_aligner.snapping": "Snapping Modes",
+  "category.litematica_chunk_aligner.slime_chunks": "Slime Chunk Visualizer",
+  "category.litematica_chunk_aligner.nether_portal": "Nether Portal Grid",
+  "category.litematica_chunk_aligner.colors": "Colors & Wireframes",
+
+  "config.litematica_chunk_aligner.enableSnapping": "Enable Automatic Snapping",
+  "config.litematica_chunk_aligner.enableSnapping.comment": "Whether Litematica placement origin snaps automatically based on chosen mode.",
+  "config.litematica_chunk_aligner.snapMode": "Snapping Mode",
+  "config.litematica_chunk_aligner.snapMode.comment": "Sub-chunk 16x16x16, Farm Perimeter bounding box, or Nether Portal 8:1 linking grid.",
+  "config.litematica_chunk_aligner.snapAnchor": "Snap Anchor Point",
+  "config.litematica_chunk_aligner.snapAnchor.comment": "Anchor origin for snapping (North-West Min corner, South-East Max corner, or Horizontally Centered).",
+  "config.litematica_chunk_aligner.snapSubChunkY": "Snap Y to Sub-Chunk Grid",
+  "config.litematica_chunk_aligner.snapSubChunkY.comment": "Clamp vertical Y coordinate to multiples of 16 (e.g., -64, -48, -32, -16, 0, 16...).",
+
+  "config.litematica_chunk_aligner.enableSlimeOverlay": "Render Slime Chunk Overlay",
+  "config.litematica_chunk_aligner.enableSlimeOverlay.comment": "Visualizes green wireframe bounding boxes over valid slime spawning chunks.",
+  "config.litematica_chunk_aligner.worldSeedOverride": "World Seed Override",
+  "config.litematica_chunk_aligner.worldSeedOverride.comment": "Manual world seed for multiplayer servers where the client cannot query /seed directly.",
+  "config.litematica_chunk_aligner.renderDistanceChunks": "Overlay Render Distance",
+  "config.litematica_chunk_aligner.renderDistanceChunks.comment": "Radius in chunks around the player to check and render slime chunk wireframes.",
+  "config.litematica_chunk_aligner.slimeMinY": "Slime Zone Min Y",
+  "config.litematica_chunk_aligner.slimeMinY.comment": "Bottom boundary for slime spawning overlay box (default -64).",
+  "config.litematica_chunk_aligner.slimeMaxY": "Slime Zone Max Y",
+  "config.litematica_chunk_aligner.slimeMaxY.comment": "Top boundary for slime spawning overlay box (default 40).",
+  "config.litematica_chunk_aligner.renderFullColumn": "Render Full Column Pillars",
+  "config.litematica_chunk_aligner.renderFullColumn.comment": "Draw vertical pillar guidelines extending through world height up to Y 320.",
+
+  "config.litematica_chunk_aligner.portalSearchRadius": "Portal Search Radius (Nether)",
+  "config.litematica_chunk_aligner.portalSearchRadius.comment": "Nether search radius for portal frame linking (default 128 blocks = 16 chunks).",
+  "config.litematica_chunk_aligner.enforceSingleChunkPortal": "Enforce Single-Chunk Portal Frame",
+  "config.litematica_chunk_aligner.enforceSingleChunkPortal.comment": "Ensures entire portal frame stays within 1 chunk to prevent cross-chunk lag & ticket leaks.",
+
+  "config.litematica_chunk_aligner.farmPaddingChunks": "Farm Perimeter Chunk Padding",
+  "config.litematica_chunk_aligner.farmPaddingChunks.comment": "Additional chunk margin around farm bounding box for perimeter walls and lighting.",
+  "config.litematica_chunk_aligner.renderDespawnSphere": "Render 128m Despawn Sphere",
+  "config.litematica_chunk_aligner.renderDespawnSphere.comment": "Visualizes hostile mob despawn boundary around calculated AFK position.",
+
+  "key.litematica_chunk_aligner.toggleOverlay": "Toggle Slime Chunk Overlay",
+  "key.litematica_chunk_aligner.snapPlacement": "Snap Current Placement to Grid",
+  "key.litematica_chunk_aligner.cycleSnapMode": "Cycle Snapping Mode",
+  "key.litematica_chunk_aligner.openConfig": "Open Chunk Aligner Config",
+
+  "message.litematica_chunk_aligner.snapped": "Placement snapped to %s: [%d, %d, %d] (Chunk [%d, %d])",
+  "message.litematica_chunk_aligner.no_placement": "No active Litematica placement selected to snap.",
+  "message.litematica_chunk_aligner.seed_set": "Slime chunk world seed set to %s",
+  "message.litematica_chunk_aligner.mode_changed": "Chunk snapping mode changed to %s",
+  "message.litematica_chunk_aligner.portal_linked": "Overworld [%d, %d, %d] <=> Nether [%d, %d, %d] (Nether Chunk [%d, %d])",
+  "message.litematica_chunk_aligner.farm_aligned": "Farm Perimeter: %d chunks (%dx%d blocks). AFK origin: [%d, %d, %d]"
+}

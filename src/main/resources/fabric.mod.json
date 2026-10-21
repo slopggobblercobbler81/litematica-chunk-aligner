@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "litematica_chunk_aligner",
+  "version": "${version}",
+  "name": "Litematica Chunk Aligner",
+  "description": "Automatic chunk grid snapping, slime chunk boundary visualizer, and sub-region coordinate calculator for Litematica on Fabric.",
+  "authors": [
+    "slopggobblercobbler81"
+  ],
+  "contact": {
+    "homepage": "https://github.com/slopggobblercobbler81/litematica-chunk-aligner",
+    "sources": "https://github.com/slopggobblercobbler81/litematica-chunk-aligner",
+    "issues": "https://github.com/slopggobblercobbler81/litematica-chunk-aligner/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/litematica_chunk_aligner/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.slopggobblercobbler.chunkaligner.LitematicaChunkAlignerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": "~1.21",
+    "litematica": ">=0.18.0",
+    "malilib": ">=0.18.0"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}
