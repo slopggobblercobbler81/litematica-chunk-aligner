@@ -1,36 +1,36 @@
 {
-    "schemaVersion":  1,
-    "id":  "litematica_chunk_aligner",
-    "version":  "${version}",
-    "name":  "Litematica Chunk Aligner",
-    "description":  "Automatic chunk grid snapping, slime chunk boundary visualizer, and sub-region coordinate calculator for Litematica on Fabric.",
-    "authors":  [
-                    "slopggobblercobbler81"
-                ],
-    "contact":  {
-                    "homepage":  "https://github.com/slopggobblercobbler81/litematica-chunk-aligner",
-                    "sources":  "https://github.com/slopggobblercobbler81/litematica-chunk-aligner",
-                    "issues":  "https://github.com/slopggobblercobbler81/litematica-chunk-aligner/issues"
-                },
-    "license":  "MIT",
-    "icon":  "assets/litematica_chunk_aligner/icon.png",
-    "environment":  "client",
-    "entrypoints":  {
-                        "client":  [
-                                       "me.slopggobblercobbler.chunkaligner.LitematicaChunkAlignerMod"
-                                   ],
-                        "modmenu":  [
-                                        "me.slopggobblercobbler.chunkaligner.compat.ModMenuIntegration"
-                                    ]
-                    },
-    "depends":  {
-                    "fabricloader":  "\u003e=0.16.0",
-                    "fabric":  "*",
-                    "minecraft":  "\u003e=1.21 \u003c=1.21.4",
-                    "litematica":  "\u003e=0.18.0",
-                    "malilib":  "\u003e=0.18.0"
-                },
-    "suggests":  {
-                     "sodium":  "*"
-                 }
+    "schemaVersion": 1,
+    "id": "litematica_chunk_aligner",
+    "version": "${version}",
+    "name": "Litematica Chunk Aligner",
+    "description": "Automatic chunk grid snapping, slime chunk boundary visualizer, and sub-region coordinate calculator for Litematica on Fabric.",
+    "authors": [
+        "slopggobblercobbler81"
+    ],
+    "contact": {
+        "homepage": "https://github.com/slopggobblercobbler81/litematica-chunk-aligner",
+        "sources": "https://github.com/slopggobblercobbler81/litematica-chunk-aligner",
+        "issues": "https://github.com/slopggobblercobbler81/litematica-chunk-aligner/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/litematica_chunk_aligner/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "me.slopggobblercobbler.chunkaligner.LitematicaChunkAlignerMod"
+        ],
+        "modmenu": [
+            "me.slopggobblercobbler.chunkaligner.compat.ModMenuIntegration"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "fabric": "*",
+        "minecraft": ">=1.21 <=26.3",
+        "litematica": ">=0.18.0",
+        "malilib": ">=0.18.0"
+    },
+    "suggests": {
+        "sodium": "*"
+    }
 }
